@@ -1,0 +1,14 @@
+# Bibliothèques Arduino requises pour le projet Spider Robot
+# Installer avec : ./bin/arduino-cli lib install "NomLib"
+
+# Pilotage des servos (12 DOF : 4 pattes × 3 articulations)
+Servo
+
+# Timer logiciel pour rythmer les pas du robot
+FlexiTimer2
+
+# Capteur ultrason HC-SR04 (évitement d'obstacles)
+NewPing
+
+# Driver PWM 16 canaux I2C pour piloter les 12 servos
+Adafruit PWM Servo Driver Library

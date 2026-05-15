@@ -1,0 +1,17 @@
+# Arduino CLI (binaire)
+bin/
+
+# Build Arduino
+build/
+*.elf
+*.bin
+*.hex
+
+# PlatformIO
+.pio/
+
+# Documentation lourde (vidéos, archives, images de référence)
+docs/
+
+# Config locale Claude Code
+.claude/
